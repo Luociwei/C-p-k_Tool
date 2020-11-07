@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774CE56824A645800072F1C2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 774CE56624A645800072F1C2 /* 1.png */; };
+		774CE56924A645800072F1C2 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 774CE56724A645800072F1C2 /* 2.png */; };
+		774CE56B24A645900072F1C2 /* cpk.png in Resources */ = {isa = PBXBuildFile; fileRef = 774CE56A24A645900072F1C2 /* cpk.png */; };
+		774CE58B24A8FCAE0072F1C2 /* none_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 774CE58A24A8FCAE0072F1C2 /* none_pic.png */; };
+		77502F6724A45FE70096EF38 /* dataTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77502F6524A45FE70096EF38 /* dataTableView.mm */; };
+		77502F6824A45FE70096EF38 /* dataTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77502F6624A45FE70096EF38 /* dataTableView.xib */; };
+		77502F6D24A466930096EF38 /* dataPlotView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77502F6B24A466930096EF38 /* dataPlotView.mm */; };
+		77502F6E24A466930096EF38 /* dataPlotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77502F6C24A466930096EF38 /* dataPlotView.xib */; };
+		7783C22C24A4EBF000418EF9 /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 7783C22A24A4EBF000418EF9 /* parseCSV.m */; };
+		7783C23024A4F90400418EF9 /* NsEventEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 7783C22E24A4F90400418EF9 /* NsEventEx.m */; };
+		779ED8C524ACBE8600F0AACE /* correlation.png in Resources */ = {isa = PBXBuildFile; fileRef = 779ED8C424ACBE8600F0AACE /* correlation.png */; };
+		779ED8C724AD739E00F0AACE /* cpk_test.py in Resources */ = {isa = PBXBuildFile; fileRef = 779ED8C624AD739E00F0AACE /* cpk_test.py */; };
+		779ED8FE24B0BD4400F0AACE /* loadCsvControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 779ED8FC24B0BD4300F0AACE /* loadCsvControl.m */; };
+		779ED8FF24B0BD4400F0AACE /* loadCsvControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779ED8FD24B0BD4300F0AACE /* loadCsvControl.xib */; };
+		77AA26FF24B17A580049A447 /* report_test.py in Resources */ = {isa = PBXBuildFile; fileRef = 77AA26FE24B17A580049A447 /* report_test.py */; };
+		77AA270824B18A770049A447 /* reportSettingCfg.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA270624B18A770049A447 /* reportSettingCfg.m */; };
+		77AA270924B18A770049A447 /* reportSettingCfg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AA270724B18A770049A447 /* reportSettingCfg.xib */; };
+		77AA270D24B1C8630049A447 /* csvListController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77AA270B24B1C8630049A447 /* csvListController.mm */; };
+		77AA271224B1D8020049A447 /* csvListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AA271124B1D8020049A447 /* csvListController.xib */; };
+		77AA271A24B2BB150049A447 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA271924B2BB150049A447 /* Feed.m */; };
+		77AA271D24B2BB340049A447 /* FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA271C24B2BB340049A447 /* FeedItem.m */; };
+		77AA271F24B2BE660049A447 /* csvListFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77AA271E24B2BE660049A447 /* csvListFile.plist */; };
+		77C3AC2A24A1CB4800A7BBC7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AC2924A1CB4800A7BBC7 /* AppDelegate.mm */; };
+		77C3AC2C24A1CB4C00A7BBC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C3AC2B24A1CB4C00A7BBC7 /* Assets.xcassets */; };
+		77C3AC2F24A1CB4C00A7BBC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C3AC2D24A1CB4C00A7BBC7 /* MainMenu.xib */; };
+		77C3AC3224A1CB4C00A7BBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AC3124A1CB4C00A7BBC7 /* main.m */; };
+		77C3ACBC24A1CD6000A7BBC7 /* redis-server in Resources */ = {isa = PBXBuildFile; fileRef = 77C3ACBB24A1CD6000A7BBC7 /* redis-server */; };
+		77C3ACBE24A1CD6800A7BBC7 /* redis-cli in Resources */ = {isa = PBXBuildFile; fileRef = 77C3ACBD24A1CD6800A7BBC7 /* redis-cli */; };
+		77C3ACC124A1CDA200A7BBC7 /* StartUp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77C3ACC024A1CDA200A7BBC7 /* StartUp.mm */; };
+		77C3ACC624A1D60F00A7BBC7 /* correlation_test.py in Resources */ = {isa = PBXBuildFile; fileRef = 77C3ACC424A1D60F00A7BBC7 /* correlation_test.py */; };
+		77C3AD1924A1DE9D00A7BBC7 /* libhiredis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C3AD1824A1DE9D00A7BBC7 /* libhiredis.a */; };
+		77C3AD1B24A1DF4000A7BBC7 /* libhiredis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C3AD1A24A1DF4000A7BBC7 /* libhiredis.a */; };
+		77C3AD2C24A1DF4D00A7BBC7 /* xRedisClient_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD1E24A1DF4D00A7BBC7 /* xRedisClient_lists.cpp */; };
+		77C3AD2D24A1DF4D00A7BBC7 /* xRedisClient_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD1F24A1DF4D00A7BBC7 /* xRedisClient_strings.cpp */; };
+		77C3AD2E24A1DF4D00A7BBC7 /* xRedisPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2024A1DF4D00A7BBC7 /* xRedisPool.cpp */; };
+		77C3AD2F24A1DF4D00A7BBC7 /* xRedisClient_hashs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2124A1DF4D00A7BBC7 /* xRedisClient_hashs.cpp */; };
+		77C3AD3024A1DF4D00A7BBC7 /* xRedisClusterClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2224A1DF4D00A7BBC7 /* xRedisClusterClient.cpp */; };
+		77C3AD3124A1DF4D00A7BBC7 /* xRedisClient_sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2324A1DF4D00A7BBC7 /* xRedisClient_sets.cpp */; };
+		77C3AD3224A1DF4D00A7BBC7 /* xRedisClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2524A1DF4D00A7BBC7 /* xRedisClient.cpp */; };
+		77C3AD3324A1DF4D00A7BBC7 /* xRedisClient_sortedsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2624A1DF4D00A7BBC7 /* xRedisClient_sortedsets.cpp */; };
+		77C3AD3424A1DF4D00A7BBC7 /* xRedisClient_keys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2924A1DF4D00A7BBC7 /* xRedisClient_keys.cpp */; };
+		77C3AD3524A1DF4D00A7BBC7 /* xRedisClient_connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2A24A1DF4D00A7BBC7 /* xRedisClient_connection.cpp */; };
+		77C3AD3624A1DF4D00A7BBC7 /* xRedisClient_pubsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD2B24A1DF4D00A7BBC7 /* xRedisClient_pubsub.cpp */; };
+		77C3AD3924A1DF5700A7BBC7 /* RedisInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD3824A1DF5700A7BBC7 /* RedisInterface.cpp */; };
+		77C3AD4424A20B0500A7BBC7 /* Publisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD3D24A20B0400A7BBC7 /* Publisher.cpp */; };
+		77C3AD4524A20B0500A7BBC7 /* Replier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD3E24A20B0500A7BBC7 /* Replier.cpp */; };
+		77C3AD4624A20B0500A7BBC7 /* Requester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD4224A20B0500A7BBC7 /* Requester.cpp */; };
+		77C3AD4724A20B0500A7BBC7 /* Subscriber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD4324A20B0500A7BBC7 /* Subscriber.cpp */; };
+		77C3AD4924A20BA700A7BBC7 /* libZMQX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C3AD4824A20BA700A7BBC7 /* libZMQX.a */; };
+		77C3AD5124A20BF300A7BBC7 /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C3AD4C24A20BF300A7BBC7 /* libzmq.a */; };
+		77C3AD5224A20BF300A7BBC7 /* libzmq.la in Resources */ = {isa = PBXBuildFile; fileRef = 77C3AD4D24A20BF300A7BBC7 /* libzmq.la */; };
+		77C3AD5324A20BF300A7BBC7 /* zmqw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD5024A20BF300A7BBC7 /* zmqw.cpp */; };
+		77C3AD9524A248D000A7BBC7 /* Client.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77C3AD9424A248D000A7BBC7 /* Client.mm */; };
+		77C3AD9724A2583700A7BBC7 /* site-packages in Resources */ = {isa = PBXBuildFile; fileRef = 77C3AD9624A2583700A7BBC7 /* site-packages */; };
+		77C3AD9B24A31CF700A7BBC7 /* calculate_test.py in Resources */ = {isa = PBXBuildFile; fileRef = 77C3AD9A24A31CF700A7BBC7 /* calculate_test.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		774CE56624A645800072F1C2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		774CE56724A645800072F1C2 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		774CE56A24A645900072F1C2 /* cpk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpk.png; sourceTree = "<group>"; };
+		774CE56C24A6D89A0072F1C2 /* defineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defineHeader.h; sourceTree = "<group>"; };
+		774CE58A24A8FCAE0072F1C2 /* none_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = none_pic.png; sourceTree = "<group>"; };
+		77502F6424A45FE70096EF38 /* dataTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataTableView.h; sourceTree = "<group>"; };
+		77502F6524A45FE70096EF38 /* dataTableView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = dataTableView.mm; sourceTree = "<group>"; };
+		77502F6624A45FE70096EF38 /* dataTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dataTableView.xib; sourceTree = "<group>"; };
+		77502F6A24A466930096EF38 /* dataPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataPlotView.h; sourceTree = "<group>"; };
+		77502F6B24A466930096EF38 /* dataPlotView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = dataPlotView.mm; sourceTree = "<group>"; };
+		77502F6C24A466930096EF38 /* dataPlotView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dataPlotView.xib; sourceTree = "<group>"; };
+		7783C22A24A4EBF000418EF9 /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+		7783C22B24A4EBF000418EF9 /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		7783C22D24A4EC1300418EF9 /* JXArcCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXArcCompatibilityMacros.h; sourceTree = "<group>"; };
+		7783C22E24A4F90400418EF9 /* NsEventEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NsEventEx.m; sourceTree = "<group>"; };
+		7783C22F24A4F90400418EF9 /* NSEventEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSEventEx.h; sourceTree = "<group>"; };
+		779ED8C024AAE00500F0AACE /* BDR_Tool.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BDR_Tool.entitlements; sourceTree = "<group>"; };
+		779ED8C424ACBE8600F0AACE /* correlation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correlation.png; sourceTree = "<group>"; };
+		779ED8C624AD739E00F0AACE /* cpk_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cpk_test.py; sourceTree = "<group>"; };
+		779ED8FB24B0BD4300F0AACE /* loadCsvControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loadCsvControl.h; sourceTree = "<group>"; };
+		779ED8FC24B0BD4300F0AACE /* loadCsvControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadCsvControl.m; sourceTree = "<group>"; };
+		779ED8FD24B0BD4300F0AACE /* loadCsvControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loadCsvControl.xib; sourceTree = "<group>"; };
+		77AA26FE24B17A580049A447 /* report_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = report_test.py; sourceTree = "<group>"; };
+		77AA270524B18A770049A447 /* reportSettingCfg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reportSettingCfg.h; sourceTree = "<group>"; };
+		77AA270624B18A770049A447 /* reportSettingCfg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reportSettingCfg.m; sourceTree = "<group>"; };
+		77AA270724B18A770049A447 /* reportSettingCfg.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = reportSettingCfg.xib; sourceTree = "<group>"; };
+		77AA270A24B1C8630049A447 /* csvListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csvListController.h; sourceTree = "<group>"; };
+		77AA270B24B1C8630049A447 /* csvListController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = csvListController.mm; sourceTree = "<group>"; };
+		77AA271124B1D8020049A447 /* csvListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = csvListController.xib; sourceTree = "<group>"; };
+		77AA271824B2BB150049A447 /* Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		77AA271924B2BB150049A447 /* Feed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		77AA271B24B2BB340049A447 /* FeedItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedItem.h; sourceTree = "<group>"; };
+		77AA271C24B2BB340049A447 /* FeedItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedItem.m; sourceTree = "<group>"; };
+		77AA271E24B2BE660049A447 /* csvListFile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = csvListFile.plist; sourceTree = "<group>"; };
+		77C3AC2524A1CB4800A7BBC7 /* BDR_Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDR_Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C3AC2824A1CB4800A7BBC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77C3AC2924A1CB4800A7BBC7 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		77C3AC2B24A1CB4C00A7BBC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C3AC2E24A1CB4C00A7BBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		77C3AC3024A1CB4C00A7BBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C3AC3124A1CB4C00A7BBC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77C3ACBB24A1CD6000A7BBC7 /* redis-server */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "redis-server"; sourceTree = "<group>"; };
+		77C3ACBD24A1CD6800A7BBC7 /* redis-cli */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "redis-cli"; sourceTree = "<group>"; };
+		77C3ACBF24A1CDA200A7BBC7 /* StartUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUp.h; sourceTree = "<group>"; };
+		77C3ACC024A1CDA200A7BBC7 /* StartUp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartUp.mm; sourceTree = "<group>"; };
+		77C3ACC424A1D60F00A7BBC7 /* correlation_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = correlation_test.py; sourceTree = "<group>"; };
+		77C3AD1824A1DE9D00A7BBC7 /* libhiredis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhiredis.a; path = RedisDriver/RedisDriver/lib/libhiredis.a; sourceTree = "<group>"; };
+		77C3AD1A24A1DF4000A7BBC7 /* libhiredis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhiredis.a; path = lib/libhiredis.a; sourceTree = "<group>"; };
+		77C3AD1C24A1DF4C00A7BBC7 /* xLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xLock.h; path = src/xLock.h; sourceTree = "<group>"; };
+		77C3AD1D24A1DF4D00A7BBC7 /* xRedisPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xRedisPool.h; path = src/xRedisPool.h; sourceTree = "<group>"; };
+		77C3AD1E24A1DF4D00A7BBC7 /* xRedisClient_lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_lists.cpp; path = src/xRedisClient_lists.cpp; sourceTree = "<group>"; };
+		77C3AD1F24A1DF4D00A7BBC7 /* xRedisClient_strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_strings.cpp; path = src/xRedisClient_strings.cpp; sourceTree = "<group>"; };
+		77C3AD2024A1DF4D00A7BBC7 /* xRedisPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisPool.cpp; path = src/xRedisPool.cpp; sourceTree = "<group>"; };
+		77C3AD2124A1DF4D00A7BBC7 /* xRedisClient_hashs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_hashs.cpp; path = src/xRedisClient_hashs.cpp; sourceTree = "<group>"; };
+		77C3AD2224A1DF4D00A7BBC7 /* xRedisClusterClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClusterClient.cpp; path = src/xRedisClusterClient.cpp; sourceTree = "<group>"; };
+		77C3AD2324A1DF4D00A7BBC7 /* xRedisClient_sets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_sets.cpp; path = src/xRedisClient_sets.cpp; sourceTree = "<group>"; };
+		77C3AD2424A1DF4D00A7BBC7 /* xRedisClusterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xRedisClusterClient.h; path = src/xRedisClusterClient.h; sourceTree = "<group>"; };
+		77C3AD2524A1DF4D00A7BBC7 /* xRedisClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient.cpp; path = src/xRedisClient.cpp; sourceTree = "<group>"; };
+		77C3AD2624A1DF4D00A7BBC7 /* xRedisClient_sortedsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_sortedsets.cpp; path = src/xRedisClient_sortedsets.cpp; sourceTree = "<group>"; };
+		77C3AD2724A1DF4D00A7BBC7 /* hiredis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hiredis.h; path = src/hiredis.h; sourceTree = "<group>"; };
+		77C3AD2824A1DF4D00A7BBC7 /* xRedisClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xRedisClient.h; path = src/xRedisClient.h; sourceTree = "<group>"; };
+		77C3AD2924A1DF4D00A7BBC7 /* xRedisClient_keys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_keys.cpp; path = src/xRedisClient_keys.cpp; sourceTree = "<group>"; };
+		77C3AD2A24A1DF4D00A7BBC7 /* xRedisClient_connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_connection.cpp; path = src/xRedisClient_connection.cpp; sourceTree = "<group>"; };
+		77C3AD2B24A1DF4D00A7BBC7 /* xRedisClient_pubsub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xRedisClient_pubsub.cpp; path = src/xRedisClient_pubsub.cpp; sourceTree = "<group>"; };
+		77C3AD3724A1DF5700A7BBC7 /* RedisInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RedisInterface.hpp; sourceTree = "<group>"; };
+		77C3AD3824A1DF5700A7BBC7 /* RedisInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RedisInterface.cpp; sourceTree = "<group>"; };
+		77C3AD3C24A20B0400A7BBC7 /* Publisher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Publisher.hpp; sourceTree = "<group>"; };
+		77C3AD3D24A20B0400A7BBC7 /* Publisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Publisher.cpp; sourceTree = "<group>"; };
+		77C3AD3E24A20B0500A7BBC7 /* Replier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Replier.cpp; sourceTree = "<group>"; };
+		77C3AD3F24A20B0500A7BBC7 /* Subscriber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Subscriber.hpp; sourceTree = "<group>"; };
+		77C3AD4024A20B0500A7BBC7 /* Requester.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Requester.hpp; sourceTree = "<group>"; };
+		77C3AD4124A20B0500A7BBC7 /* Replier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Replier.hpp; sourceTree = "<group>"; };
+		77C3AD4224A20B0500A7BBC7 /* Requester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Requester.cpp; sourceTree = "<group>"; };
+		77C3AD4324A20B0500A7BBC7 /* Subscriber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subscriber.cpp; sourceTree = "<group>"; };
+		77C3AD4824A20BA700A7BBC7 /* libZMQX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZMQX.a; path = BDR_Tool/zmq/libZMQX.a; sourceTree = "<group>"; };
+		77C3AD4A24A20BF300A7BBC7 /* zhelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhelpers.h; sourceTree = "<group>"; };
+		77C3AD4B24A20BF300A7BBC7 /* zmqw.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zmqw.hpp; sourceTree = "<group>"; };
+		77C3AD4C24A20BF300A7BBC7 /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
+		77C3AD4D24A20BF300A7BBC7 /* libzmq.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libzmq.la; sourceTree = "<group>"; };
+		77C3AD4E24A20BF300A7BBC7 /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
+		77C3AD4F24A20BF300A7BBC7 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
+		77C3AD5024A20BF300A7BBC7 /* zmqw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zmqw.cpp; sourceTree = "<group>"; };
+		77C3AD9324A248D000A7BBC7 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		77C3AD9424A248D000A7BBC7 /* Client.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Client.mm; sourceTree = "<group>"; };
+		77C3AD9624A2583700A7BBC7 /* site-packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "site-packages"; sourceTree = "<group>"; };
+		77C3AD9A24A31CF700A7BBC7 /* calculate_test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = calculate_test.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C3AC2224A1CB4800A7BBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C3AD4924A20BA700A7BBC7 /* libZMQX.a in Frameworks */,
+				77C3AD1B24A1DF4000A7BBC7 /* libhiredis.a in Frameworks */,
+				77C3AD5124A20BF300A7BBC7 /* libzmq.a in Frameworks */,
+				77C3AD1924A1DE9D00A7BBC7 /* libhiredis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		774CE56524A6456C0072F1C2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				774CE56624A645800072F1C2 /* 1.png */,
+				774CE56724A645800072F1C2 /* 2.png */,
+				774CE56A24A645900072F1C2 /* cpk.png */,
+				779ED8C424ACBE8600F0AACE /* correlation.png */,
+				774CE58A24A8FCAE0072F1C2 /* none_pic.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		77502F5E24A45BF10096EF38 /* DataItems */ = {
+			isa = PBXGroup;
+			children = (
+				77502F6424A45FE70096EF38 /* dataTableView.h */,
+				77502F6524A45FE70096EF38 /* dataTableView.mm */,
+				77502F6624A45FE70096EF38 /* dataTableView.xib */,
+				7783C22B24A4EBF000418EF9 /* parseCSV.h */,
+				7783C22A24A4EBF000418EF9 /* parseCSV.m */,
+				7783C22D24A4EC1300418EF9 /* JXArcCompatibilityMacros.h */,
+				7783C22F24A4F90400418EF9 /* NSEventEx.h */,
+				7783C22E24A4F90400418EF9 /* NsEventEx.m */,
+				779ED8FB24B0BD4300F0AACE /* loadCsvControl.h */,
+				779ED8FC24B0BD4300F0AACE /* loadCsvControl.m */,
+				779ED8FD24B0BD4300F0AACE /* loadCsvControl.xib */,
+				77AA270A24B1C8630049A447 /* csvListController.h */,
+				77AA270B24B1C8630049A447 /* csvListController.mm */,
+				77AA271124B1D8020049A447 /* csvListController.xib */,
+				77AA271724B2BAB70049A447 /* csvMode */,
+			);
+			path = DataItems;
+			sourceTree = "<group>";
+		};
+		77502F6924A4662D0096EF38 /* DataPlot */ = {
+			isa = PBXGroup;
+			children = (
+				77502F6A24A466930096EF38 /* dataPlotView.h */,
+				77502F6B24A466930096EF38 /* dataPlotView.mm */,
+				77502F6C24A466930096EF38 /* dataPlotView.xib */,
+				774CE56C24A6D89A0072F1C2 /* defineHeader.h */,
+				77AA270524B18A770049A447 /* reportSettingCfg.h */,
+				77AA270624B18A770049A447 /* reportSettingCfg.m */,
+				77AA270724B18A770049A447 /* reportSettingCfg.xib */,
+			);
+			path = DataPlot;
+			sourceTree = "<group>";
+		};
+		779ED8C324AB5AFA00F0AACE /* readme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = readme;
+			sourceTree = "<group>";
+		};
+		77AA271724B2BAB70049A447 /* csvMode */ = {
+			isa = PBXGroup;
+			children = (
+				77AA271824B2BB150049A447 /* Feed.h */,
+				77AA271924B2BB150049A447 /* Feed.m */,
+				77AA271B24B2BB340049A447 /* FeedItem.h */,
+				77AA271C24B2BB340049A447 /* FeedItem.m */,
+				77AA271E24B2BE660049A447 /* csvListFile.plist */,
+			);
+			path = csvMode;
+			sourceTree = "<group>";
+		};
+		77C3AC1C24A1CB4800A7BBC7 = {
+			isa = PBXGroup;
+			children = (
+				77C3AC2724A1CB4800A7BBC7 /* BDR_Tool */,
+				77C3AC2624A1CB4800A7BBC7 /* Products */,
+				77C3AD0F24A1DD4E00A7BBC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77C3AC2624A1CB4800A7BBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C3AC2524A1CB4800A7BBC7 /* BDR_Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C3AC2724A1CB4800A7BBC7 /* BDR_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				779ED8C324AB5AFA00F0AACE /* readme */,
+				774CE56524A6456C0072F1C2 /* image */,
+				77C3AD3B24A2098100A7BBC7 /* zmq */,
+				77C3ACC224A1D52900A7BBC7 /* Python */,
+				77C3AC3924A1CB8600A7BBC7 /* Redis */,
+				77502F5E24A45BF10096EF38 /* DataItems */,
+				77502F6924A4662D0096EF38 /* DataPlot */,
+				77C3AC2924A1CB4800A7BBC7 /* AppDelegate.mm */,
+				77C3AC2824A1CB4800A7BBC7 /* AppDelegate.h */,
+				77C3ACBF24A1CDA200A7BBC7 /* StartUp.h */,
+				77C3ACC024A1CDA200A7BBC7 /* StartUp.mm */,
+				77C3AC2B24A1CB4C00A7BBC7 /* Assets.xcassets */,
+				77C3AC2D24A1CB4C00A7BBC7 /* MainMenu.xib */,
+				77C3AC3024A1CB4C00A7BBC7 /* Info.plist */,
+				77C3AC3124A1CB4C00A7BBC7 /* main.m */,
+				779ED8C024AAE00500F0AACE /* BDR_Tool.entitlements */,
+			);
+			path = BDR_Tool;
+			sourceTree = "<group>";
+		};
+		77C3AC3924A1CB8600A7BBC7 /* Redis */ = {
+			isa = PBXGroup;
+			children = (
+				77C3AD1A24A1DF4000A7BBC7 /* libhiredis.a */,
+				77C3AD3824A1DF5700A7BBC7 /* RedisInterface.cpp */,
+				77C3AD3724A1DF5700A7BBC7 /* RedisInterface.hpp */,
+				77C3AD2724A1DF4D00A7BBC7 /* hiredis.h */,
+				77C3AD1C24A1DF4C00A7BBC7 /* xLock.h */,
+				77C3AD2A24A1DF4D00A7BBC7 /* xRedisClient_connection.cpp */,
+				77C3AD2124A1DF4D00A7BBC7 /* xRedisClient_hashs.cpp */,
+				77C3AD2924A1DF4D00A7BBC7 /* xRedisClient_keys.cpp */,
+				77C3AD1E24A1DF4D00A7BBC7 /* xRedisClient_lists.cpp */,
+				77C3AD2B24A1DF4D00A7BBC7 /* xRedisClient_pubsub.cpp */,
+				77C3AD2324A1DF4D00A7BBC7 /* xRedisClient_sets.cpp */,
+				77C3AD2624A1DF4D00A7BBC7 /* xRedisClient_sortedsets.cpp */,
+				77C3AD1F24A1DF4D00A7BBC7 /* xRedisClient_strings.cpp */,
+				77C3AD2524A1DF4D00A7BBC7 /* xRedisClient.cpp */,
+				77C3AD2824A1DF4D00A7BBC7 /* xRedisClient.h */,
+				77C3AD2224A1DF4D00A7BBC7 /* xRedisClusterClient.cpp */,
+				77C3AD2424A1DF4D00A7BBC7 /* xRedisClusterClient.h */,
+				77C3AD2024A1DF4D00A7BBC7 /* xRedisPool.cpp */,
+				77C3AD1D24A1DF4D00A7BBC7 /* xRedisPool.h */,
+				77C3ACBD24A1CD6800A7BBC7 /* redis-cli */,
+				77C3ACBB24A1CD6000A7BBC7 /* redis-server */,
+			);
+			path = Redis;
+			sourceTree = "<group>";
+		};
+		77C3ACC224A1D52900A7BBC7 /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				77C3AD9624A2583700A7BBC7 /* site-packages */,
+				77C3ACC424A1D60F00A7BBC7 /* correlation_test.py */,
+				77C3AD9A24A31CF700A7BBC7 /* calculate_test.py */,
+				779ED8C624AD739E00F0AACE /* cpk_test.py */,
+				77AA26FE24B17A580049A447 /* report_test.py */,
+			);
+			path = Python;
+			sourceTree = "<group>";
+		};
+		77C3AD0F24A1DD4E00A7BBC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C3AD4824A20BA700A7BBC7 /* libZMQX.a */,
+				77C3AD1824A1DE9D00A7BBC7 /* libhiredis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77C3AD3B24A2098100A7BBC7 /* zmq */ = {
+			isa = PBXGroup;
+			children = (
+				77C3AD4C24A20BF300A7BBC7 /* libzmq.a */,
+				77C3AD4D24A20BF300A7BBC7 /* libzmq.la */,
+				77C3AD9324A248D000A7BBC7 /* Client.h */,
+				77C3AD9424A248D000A7BBC7 /* Client.mm */,
+				77C3AD4A24A20BF300A7BBC7 /* zhelpers.h */,
+				77C3AD4E24A20BF300A7BBC7 /* zmq_utils.h */,
+				77C3AD4F24A20BF300A7BBC7 /* zmq.h */,
+				77C3AD5024A20BF300A7BBC7 /* zmqw.cpp */,
+				77C3AD4B24A20BF300A7BBC7 /* zmqw.hpp */,
+				77C3AD3D24A20B0400A7BBC7 /* Publisher.cpp */,
+				77C3AD3C24A20B0400A7BBC7 /* Publisher.hpp */,
+				77C3AD3E24A20B0500A7BBC7 /* Replier.cpp */,
+				77C3AD4124A20B0500A7BBC7 /* Replier.hpp */,
+				77C3AD4224A20B0500A7BBC7 /* Requester.cpp */,
+				77C3AD4024A20B0500A7BBC7 /* Requester.hpp */,
+				77C3AD4324A20B0500A7BBC7 /* Subscriber.cpp */,
+				77C3AD3F24A20B0500A7BBC7 /* Subscriber.hpp */,
+			);
+			path = zmq;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C3AC2424A1CB4800A7BBC7 /* BDR_Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C3AC3624A1CB4C00A7BBC7 /* Build configuration list for PBXNativeTarget "BDR_Tool" */;
+			buildPhases = (
+				77C3AC2124A1CB4800A7BBC7 /* Sources */,
+				77C3AC2224A1CB4800A7BBC7 /* Frameworks */,
+				77C3AC2324A1CB4800A7BBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDR_Tool;
+			productName = BDR_Tool;
+			productReference = 77C3AC2524A1CB4800A7BBC7 /* BDR_Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C3AC1D24A1CB4800A7BBC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = RyanGao;
+				TargetAttributes = {
+					77C3AC2424A1CB4800A7BBC7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 77C3AC2024A1CB4800A7BBC7 /* Build configuration list for PBXProject "BDR_Tool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C3AC1C24A1CB4800A7BBC7;
+			productRefGroup = 77C3AC2624A1CB4800A7BBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C3AC2424A1CB4800A7BBC7 /* BDR_Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C3AC2324A1CB4800A7BBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774CE56924A645800072F1C2 /* 2.png in Resources */,
+				77C3AC2C24A1CB4C00A7BBC7 /* Assets.xcassets in Resources */,
+				77AA26FF24B17A580049A447 /* report_test.py in Resources */,
+				77502F6824A45FE70096EF38 /* dataTableView.xib in Resources */,
+				77C3ACC624A1D60F00A7BBC7 /* correlation_test.py in Resources */,
+				779ED8C524ACBE8600F0AACE /* correlation.png in Resources */,
+				77AA270924B18A770049A447 /* reportSettingCfg.xib in Resources */,
+				774CE58B24A8FCAE0072F1C2 /* none_pic.png in Resources */,
+				77AA271F24B2BE660049A447 /* csvListFile.plist in Resources */,
+				774CE56B24A645900072F1C2 /* cpk.png in Resources */,
+				77C3ACBE24A1CD6800A7BBC7 /* redis-cli in Resources */,
+				77AA271224B1D8020049A447 /* csvListController.xib in Resources */,
+				77C3AC2F24A1CB4C00A7BBC7 /* MainMenu.xib in Resources */,
+				77C3AD9B24A31CF700A7BBC7 /* calculate_test.py in Resources */,
+				779ED8FF24B0BD4400F0AACE /* loadCsvControl.xib in Resources */,
+				77C3ACBC24A1CD6000A7BBC7 /* redis-server in Resources */,
+				77C3AD9724A2583700A7BBC7 /* site-packages in Resources */,
+				774CE56824A645800072F1C2 /* 1.png in Resources */,
+				77502F6E24A466930096EF38 /* dataPlotView.xib in Resources */,
+				77C3AD5224A20BF300A7BBC7 /* libzmq.la in Resources */,
+				779ED8C724AD739E00F0AACE /* cpk_test.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C3AC2124A1CB4800A7BBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AA270824B18A770049A447 /* reportSettingCfg.m in Sources */,
+				77C3AD3524A1DF4D00A7BBC7 /* xRedisClient_connection.cpp in Sources */,
+				77C3AD3024A1DF4D00A7BBC7 /* xRedisClusterClient.cpp in Sources */,
+				7783C23024A4F90400418EF9 /* NsEventEx.m in Sources */,
+				77C3AD2E24A1DF4D00A7BBC7 /* xRedisPool.cpp in Sources */,
+				77C3AC3224A1CB4C00A7BBC7 /* main.m in Sources */,
+				77C3AD3924A1DF5700A7BBC7 /* RedisInterface.cpp in Sources */,
+				77AA271A24B2BB150049A447 /* Feed.m in Sources */,
+				779ED8FE24B0BD4400F0AACE /* loadCsvControl.m in Sources */,
+				77C3AD4724A20B0500A7BBC7 /* Subscriber.cpp in Sources */,
+				77C3AD3624A1DF4D00A7BBC7 /* xRedisClient_pubsub.cpp in Sources */,
+				77C3AD3324A1DF4D00A7BBC7 /* xRedisClient_sortedsets.cpp in Sources */,
+				77C3AD5324A20BF300A7BBC7 /* zmqw.cpp in Sources */,
+				77502F6724A45FE70096EF38 /* dataTableView.mm in Sources */,
+				77C3AC2A24A1CB4800A7BBC7 /* AppDelegate.mm in Sources */,
+				77AA270D24B1C8630049A447 /* csvListController.mm in Sources */,
+				77AA271D24B2BB340049A447 /* FeedItem.m in Sources */,
+				77C3AD2F24A1DF4D00A7BBC7 /* xRedisClient_hashs.cpp in Sources */,
+				77C3AD2D24A1DF4D00A7BBC7 /* xRedisClient_strings.cpp in Sources */,
+				77C3AD4624A20B0500A7BBC7 /* Requester.cpp in Sources */,
+				77C3ACC124A1CDA200A7BBC7 /* StartUp.mm in Sources */,
+				77C3AD3124A1DF4D00A7BBC7 /* xRedisClient_sets.cpp in Sources */,
+				77C3AD4424A20B0500A7BBC7 /* Publisher.cpp in Sources */,
+				77C3AD2C24A1DF4D00A7BBC7 /* xRedisClient_lists.cpp in Sources */,
+				77C3AD3224A1DF4D00A7BBC7 /* xRedisClient.cpp in Sources */,
+				77502F6D24A466930096EF38 /* dataPlotView.mm in Sources */,
+				7783C22C24A4EBF000418EF9 /* parseCSV.m in Sources */,
+				77C3AD4524A20B0500A7BBC7 /* Replier.cpp in Sources */,
+				77C3AD9524A248D000A7BBC7 /* Client.mm in Sources */,
+				77C3AD3424A1DF4D00A7BBC7 /* xRedisClient_keys.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77C3AC2D24A1CB4C00A7BBC7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C3AC2E24A1CB4C00A7BBC7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C3AC3424A1CB4C00A7BBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77C3AC3524A1CB4C00A7BBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77C3AC3724A1CB4C00A7BBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BDR_Tool/BDR_Tool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDR_Tool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedisDriver/RedisDriver/lib",
+					"$(PROJECT_DIR)/BDR_Tool/Redis/lib",
+					"$(PROJECT_DIR)/BDR_Tool/zmq",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.CPK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77C3AC3824A1CB4C00A7BBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BDR_Tool/BDR_Tool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BDR_Tool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RedisDriver/RedisDriver/lib",
+					"$(PROJECT_DIR)/BDR_Tool/Redis/lib",
+					"$(PROJECT_DIR)/BDR_Tool/zmq",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Shenzhen.CPK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C3AC2024A1CB4800A7BBC7 /* Build configuration list for PBXProject "BDR_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C3AC3424A1CB4C00A7BBC7 /* Debug */,
+				77C3AC3524A1CB4C00A7BBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C3AC3624A1CB4C00A7BBC7 /* Build configuration list for PBXNativeTarget "BDR_Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C3AC3724A1CB4C00A7BBC7 /* Debug */,
+				77C3AC3824A1CB4C00A7BBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C3AC1D24A1CB4800A7BBC7 /* Project object */;
+}
